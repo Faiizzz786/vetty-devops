@@ -1,0 +1,45 @@
+Task1: Git Basics
+Creating a GitHub repository
+•	Go to GitHub and create a new repository (e.g., vetty-devops).
+Creating new branch
+•	git clone https://github.com/Faiizzz786/vetty-devops.git
+•	cd vetty-devops
+•	git checkout -b practical-test
+Adding a sample file and push it
+•	echo "Hello, Vetty!" > hello.txt
+•	git add hello.txt
+•	git commit -m "Added hello.txt with greeting"
+•	git push origin practical-test
+
+
+
+Task 2: Basic Linux Commands
+Steps to Follow
+Creating a directory and file
+•	mkdir VettyTest
+•	cd VettyTest
+•	touch script.sh
+Writing the script
+•	echo 'echo "Welcome to DevOps!"' > script.sh
+Making the script executable and running it
+•	chmod +x script.sh
+•	./script.sh
+
+
+Task 3: Docker Basics
+Steps to Follow
+Creating a Dockerfile
+dockerfile
+•	FROM nginx:latest
+•	EXPOSE 80
+•	CMD ["nginx", "-g", "daemon off;"]
+Building and running the Docker image
+•	docker build -t nginx-test .
+•	docker run -d -p 80:80 nginx-test
+Open Nginx default page
+•	Open a browser and go to http://localhost:80 to view it.
+
+
+
+
+
